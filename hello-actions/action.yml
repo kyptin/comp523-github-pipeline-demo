@@ -1,0 +1,13 @@
+name: "Hello Actions"
+description: "Greet someone"
+author: "COMP 523 f'20 team L"
+
+inputs:
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "Anonymous"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
